@@ -1,0 +1,22 @@
+.mycard{
+  margin-top: 30px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+}
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.video{
+  height: 500px;
+  width: 600px;
+}

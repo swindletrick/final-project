@@ -1,0 +1,9 @@
+<div class="row">
+        <div class="col-md-4">
+            <div class="card">
+			  {% for name in gallery_images %}
+              <img src="{{url_for('send_image', filename = '')}}{{name}}" width="360" height="200">
+              {% endfor %}	
+            </div>
+        </div>     
+</div>
